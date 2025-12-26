@@ -45,6 +45,11 @@ p{
     color: #2d2d2d;
     line-height: normal;
 }
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+}
 h3 { font-size: 24px; }
 h4 { font-size: 20px; }
 h5 { font-size: 18px; }
@@ -956,7 +961,7 @@ input:focus {
     background: #000;
 }
 .course{
-    background: url(./images/contactus-banner.jpg);
+    background: url(./images/contact-us-banner-1.jpg);
         background-position: bottom bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1302,4 +1307,226 @@ footer h5{
 .title-container.our-services .lefe-img-1 {
     max-width: 144px;
     bottom: -162px;
+}
+
+.swiper-slide {
+    position: relative;
+      border-radius:10px;
+    overflow: hidden;
+}
+.s-title {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    /* background: var(--primary--color); */
+    color: var(--para--color);
+    padding: 10px 10px;
+    width: 100%;
+   
+}
+.s-title h6{
+   margin: 0;
+}
+.swiper-slide img{
+    width: 100%;
+}
+
+/* Title box */
+.s-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 10px;
+  
+  /* Hidden by default */
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+}
+
+.s-title h6 {
+  color: #fff;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Show on hover */
+.card:hover .s-title {
+  opacity: 1;
+  transform: translateY(0);
+}
+.main-nav a.active{
+    color: var(--primary--color);
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--primary--color, 1);
+    background: var(--primary--color,var(--primary--color));
+}
+.inner-banner {
+    background: var(--primary--color);
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+.saticsties h2 {
+    max-width: 900px;
+    margin: auto;
+    font-size: 30px !important;
+    line-height: 43px;
+}
+.highlight {
+    color: var(--primary--color);
+    font-weight: 600;
+    display: inline-block;
+}
+
+.misstion_vistion .nav .nav-item button.active {
+  background-color: transparent;
+  color: var(--primary--color) !important;
+}
+.misstion_vistion .nav .nav-item button {
+    padding: 0 40px 0px 40px;
+ padding-bottom: 12px !important;
+    color: #000 !important;
+    font-size: 20px;
+}
+.misstion_vistion .nav .nav-item button.active::after {
+  content: "";
+  border-bottom: 4px solid var(--primary--color);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-radius: 5px 5px 0 0;
+}
+button:hover {
+    border: solid 0px var(--light);
+}
+.misstion_vistion .border-bottom{
+    border-bottom: 1px solid #b9dbc1 !important;
+}
+.misstion_vistion h2{
+      font-size: 25px !important;
+    line-height: 43px;
+}
+.misstion_vistion {
+    text-align: center;
+}
+
+.stack-card-1 {
+    width: 100%;
+    background-image: linear-gradient(
+    135deg,           /* Diagonal direction for a soft, natural flow */
+    #e8f4e2 0%,       /* Very pale, nearly white mint */
+    #d1e7c9 45%,      /* Light, soft sage green */
+    #b9dbc1 100%      /* Slightly deeper, muted green tone */
+  );
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+.stack-card-1 img {
+    max-width: 60px;
+    margin-bottom: 15px;
+}
+.our-service.about-us  .stack-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.our-service.about-us .stack-card img {
+    max-width: 140px;
+    margin-bottom: 0px;
+}
+.why-choose-img-container{
+        position: absolute;
+    bottom: -29px;
+    right: -45px;
+}
+.our-service.about-us .stack-card p{
+    width: 97%;
+}
+
+/* contact us */
+/* Contact Section Styling */
+.contact-wrapper {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden; /* Clips the dark card corners */
+      border: 1px solid #c8e2c6;
+}
+
+.custom-input {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.custom-input:focus {
+  background-color: #fff;
+  box-shadow: 0 0 0 0.05rem var(--primary--color);
+}
+
+.btn-send {
+  background-color: #1a2b42;
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+}
+
+.info-card {
+  background-image: linear-gradient(135deg, /* Diagonal direction for a soft, natural flow */ #e8f4e2 0%, /* Very pale, nearly white mint */ #d1e7c9 45%, /* Light, soft sage green */ #b9dbc1 100% /* Slightly deeper, muted green tone */);/* Dark blue from image */
+  color: #000;
+}
+
+.info-item {
+  background: transparent;
+  padding: 15px;
+  border-radius: 12px;
+  transition: 0.3s;
+  padding-left: 0;
+  padding-top: 0;
+}
+.info-item i{
+    font-size: 23px;
+}
+
+.info-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.social-connect a:hover {
+  opacity: 0.7;
+}
+.contact-us-button {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background: var(--primary--color) !important;
+    border: none !important;
+        box-shadow: -1px 1px 4px var(--primary--color), 1px -1px 4px var(--white--color);
+}
+.contact-us-button .button__component_demo {
+ box-shadow: none !important;
+}
+   
+/* Responsive adjust */
+@media (max-width: 991px) {
+  .contact-wrapper {
+    margin: 0 10px;
+  }
+}
+.contact-wrapper label{
+    color: #000;
 }
