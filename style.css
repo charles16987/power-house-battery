@@ -1547,3 +1547,214 @@ button:hover {
 .our-service-page-sec .stack-card {
     min-height: 310px;
 }
+.splide__slide video {
+  width: 100%;
+  height: 500px;
+    object-fit: cover;
+}
+
+.mySwiper2 {
+      height: 450px;
+      width: 100%;
+    }
+
+    .mySwiper {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+
+    .mySwiper .swiper-slide {
+      width: 25%;
+      height: 100px;
+      opacity: 0.4;
+    }
+
+    .mySwiper .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+
+   .mySwiper2 .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+   .mySwiper2   .swiper-button-next:after, .mySwiper2  .swiper-button-prev:after {
+    font-size: 20px;
+}
+ .mySwiper2  .swiper-button-next {
+        background: #000;
+    padding: 20px;
+}
+.mySwiper2  .swiper-button-prev {
+        background: #000;
+    padding: 20px;
+}
+
+ .mySwiper4 .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+   .mySwiper4   .swiper-button-next:after, .mySwiper4  .swiper-button-prev:after {
+    font-size: 20px;
+    color: #FFF;
+}
+ .mySwiper4  .swiper-button-next {
+        background: #000;
+    padding: 20px;
+}
+.mySwiper4  .swiper-button-prev {
+        background: #000;
+    padding: 20px;
+}
+.mySwiper4 {
+      height: 450px;
+      width: 100%;
+    }
+
+    .mySwiper3 .swiper-slide {
+      width: 25%;
+      height: 100px;
+      opacity: 0.4;
+    }
+
+
+       .mySwiper3 .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+
+        .mySwiper3 {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+
+
+     .mySwiper5 .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+   .mySwiper5   .swiper-button-next:after, .mySwiper5  .swiper-button-prev:after {
+    font-size: 20px;
+    color: #FFF;
+}
+ .mySwiper5  .swiper-button-next {
+        background: #000;
+    padding: 20px;
+}
+.mySwiper5  .swiper-button-prev {
+        background: #000;
+    padding: 20px;
+}
+.mySwiper5 {
+      height: 450px;
+      width: 100%;
+    }
+
+       .mySwiper6 .swiper-slide {
+      width: 25%;
+      height: 100px;
+      opacity: 0.4;
+    }
+
+
+       .mySwiper6 .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+
+        .mySwiper6 {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+
+        .mySwiper7 .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+   .mySwiper7   .swiper-button-next:after, .mySwiper7  .swiper-button-prev:after {
+    font-size: 20px;
+    color: #FFF;
+}
+ .mySwiper7  .swiper-button-next {
+        background: #000;
+    padding: 20px;
+}
+.mySwiper7  .swiper-button-prev {
+        background: #000;
+    padding: 20px;
+}
+.mySwiper7 {
+      height: 450px;
+      width: 100%;
+    }
+
+       .mySwiper8 .swiper-slide {
+      width: 25%;
+      height: 100px;
+      opacity: 0.4;
+    }
+
+
+       .mySwiper8 .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+
+        .mySwiper8 {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+
+
+        .mySwiper9 .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+   .mySwiper9   .swiper-button-next:after, .mySwiper9  .swiper-button-prev:after {
+    font-size: 20px;
+    color: #FFF;
+}
+ .mySwiper9  .swiper-button-next {
+        background: #000;
+    padding: 20px;
+}
+.mySwiper9  .swiper-button-prev {
+        background: #000;
+    padding: 20px;
+}
+.mySwiper9 {
+      height: 450px;
+      width: 100%;
+    }
+
+       .mySwiper10 .swiper-slide {
+      width: 25%;
+      height: 100px;
+      opacity: 0.4;
+    }
+
+
+       .mySwiper10 .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+
+        .mySwiper10 {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
