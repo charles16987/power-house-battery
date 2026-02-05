@@ -10,7 +10,9 @@ a{
 a:hover {
   text-decoration: none;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body{
     margin: 0;
     background-color: #fff;
@@ -36,6 +38,7 @@ header nav a{
     text-decoration: none;
     color: #2d2d2d;
     font-weight: 500;
+    font-family: "Manrope", serif;
 }
 a{
     text-decoration: none;
@@ -55,9 +58,10 @@ h4 { font-size: 20px; }
 h5 { font-size: 18px; }
 h6 { font-size: 16px; }
 
-h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6{
  color: var(--black--color);
  font-weight: 500 ;
+ font-family: "Noto Sans Tamil", sans-serif;
 }
 h2{
     color: var(--black--color);
@@ -410,8 +414,11 @@ footer{
     font-weight: 600;
     display: inline-block;
     font-size: 16px;
-    color: var(--primary--color);
+    color: #000;
     text-decoration: none;
+}
+.side-menu nav ul li .active{
+     color: var(--primary--color);
 }
 
 .side-menu nav .mobile-dropdown{
@@ -1144,7 +1151,7 @@ width: 212px;
     justify-content: flex-start;
 }
  footer p{
-        color: #DCDCDC;
+        color: #ffffff;
         font-weight: 500;
     }
     .social-media {
@@ -1158,7 +1165,7 @@ width: 212px;
         padding-bottom: 10px;
     }
     .quick-links a {
-        color: #DCDCDC !important;
+        color: #ffffff !important;
         font-weight: 500;
     }
     .quick-links {
@@ -1166,7 +1173,7 @@ width: 212px;
     }
     .copy-rights {
         font-size: 12px;
-        color: #DCDCDC;
+        color: #ffffff;
     }
     .footer-contact-us p{
         display: flex;
@@ -1372,6 +1379,10 @@ footer h5{
     background-size: cover;
     padding-top: 130px;
     padding-bottom: 80px;
+    text-align: center;
+}
+.inner-banner h1{
+    color: #fff;
 }
 .saticsties h2 {
     max-width: 900px;
@@ -1757,4 +1768,11 @@ button:hover {
       height: 20%;
       box-sizing: border-box;
       padding: 10px 0;
+    }
+    .contact-us-img img{
+        width: 70%;
+        border-radius: 20px;
+    }
+    .contact-wrapper p{
+        width: 80%;
     }

@@ -1,40 +1,33 @@
 
 @media (max-width: 1280px) {
-	.section-1 .card h2 {
-    font-size: 35px;
+h1,h2 {
+    font-size: 38px;
 }
 }
 @media (max-width: 1200px) {
      
 }
 @media (max-width: 1024px) {
-  .animate-me {
-    line-height: 37px;
-    font-size: 25px;
+  .splide__slide img {
+    height: 100%;
+    object-fit: contain;
 }
-.card-about {
-    padding: 25px 80px;
+.splide__slide video {
+   height: 100%;
+    object-fit: contain;
+}
+.saticsties h2 {
+    max-width: 900px;
+    margin: auto;
+    font-size: 25px !important;
+    line-height: 37px;
+}
+.misstion_vistion h2 {
+    font-size: 22px !important;
+    line-height: 38px;
 }
 }
  @media (max-width: 991.9px) {
-    .animate-me {
-            line-height: 34px;
-            font-size: 21px;
-        }
-        .card-about {
-        padding: 25px 50px;
-    }
-    .contact_us_btn_container{
-        display: flex;
-        gap: 20px;
-        align-items: center;
-    }
-    .about-us-border-imgs .left {
-    left: -20px;
-}
-    .about-us-border-imgs .right {
-        right: -20px;
-    }
     .mobile_menu{
         display: none ;
     }
@@ -50,201 +43,242 @@
 .banner-btns .mobile_menu {
     display: inline-block;
 }
-.card-first-item {
+   .contact_us_btn_container{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .course {
+        text-align: center;
+    }
+    .course  .contact_us_btn_container {
+    margin-top: 20px !important;
     display: flex;
-    align-items: start;
-    gap: 10px;
-    flex-direction: column;
+    justify-content: center;
 }
-.section-1 .card h2 {
-    font-size: 28px;
+.our-service.about-us{
+    text-align: center;
 }
-.section-1 .card-icon i {
-    color: #fff;
-    transform: rotate(40deg);
-    font-size: 25px;
-    transition: all 0.3s ease;
+.title-container.our-services .lefe-img-1 {
+    max-width: 87px;
+    bottom: 127px;
 }
-p{
-    font-size: 16px;
-}
-.card-skills {
-    margin-top: 25px;
-}
-.from {
-    margin-bottom: 25px;
-}
-.sec-4 {
-    padding-bottom: 20px;
+.left-fixed {
+    height: auto;
+    margin-bottom: 50px;
 }
 section {
-    padding: 40px 0px;
+    padding: 30px 0px;
+}
+.about-us .about-us-container {
+        margin-bottom: 60px;
+}
+.about-us {
+    text-align: center;
+}
+.about-us .learn-more-button-container {
+    justify-content: center;
+}
+.sec-6.pt-0 {
+    padding-top: 30px !important;
+}
+h3 {
+    font-size: 21px;
+}
+.course {
+    height: auto;
+}
+footer {
+    padding: 40px 0;
+    padding-top: 60px;
+    border-top: 1px solid #1f8738;
+    background-color: transparent;
+    border-radius: 60px 60px 0px 0px;
+    background-image: linear-gradient(180deg, #1a582a 0%, var(--primary--color) 100%);
+}
+.saticsties h2 {
+    max-width: 100%;
+    margin: auto;
+    font-size: 20px !important;
+    line-height: 32px;
 }
 }
 
 
  @media (max-width: 767px) {
-    header .logo {
-        font-size: 24px;
-        width: 301px;
-    }
-    .banner-text {
-    }
-    .banner-text .title {
-    font-size: 35px;
+    .logo img {
+    max-width: 165px;
 }
-.banner-btns .mobile_menu {
-    display: inline-block;
-    padding: 7px 15px;
-    font-size: 14px;
+header .logo {
+    width: 40%;
 }
-    .section-1 {
-        text-align: center;
-    }
-    .about-img {
-        max-width: 250px;
-        margin: auto;
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
-    .nav.nav-pills .nav-link {
-        white-space: nowrap !important;
-        
-    }
-    .nav.nav-pills{
-        justify-content: initial !important;
-        flex-wrap: initial !important;
-        overflow-x: auto;
-    }
-    .h2, h2 {
-        font-size:30px;
-    }
-    .product-card h4 {
-        font-size: 22px;
-    }
-    p {
-        font-size: 16px;
-    }
-    .product-card img {
-        max-width: 200px;
-    }
-    .contact-us-text-container  h4 {
-        font-size: 22px;
-    }
-    .banner-img {
-        margin-top: 40px;
-    }
-    .banner-img-container {
-    max-width: 255px;
+.button__component_demo {
+    border-radius: 30px;
+    box-shadow: -1px 1px 4px var(--primary--color),1px -1px 4px var(--white--color);
+    overflow: hidden;
+    padding: 5px 10px;
+    overflow: hidden;
+    font-size: 12px;
+    background: var(--primary--color);
+    top: -1px;
+    transition: box-shadow .4s ease-out .4s;
+    z-index: 2;
 }
-.section-1 .text-start{
-    margin-top: 15px !important;
+.menu_icon img {
+    max-width: 20px;
 }
-.card-icon {
-    display: none;
-}
-.banner {
-    margin-top: 45px;
-}
-.section-1 .card h2 {
-    font-size: 25px;
-}
-.nav.nav-pills{
-    justify-content: center !important;
-}
-.card-skills {
-    margin-top: 25px;
-}
-section {
-    padding: 30px 0px;
-}
-.form-card {
-    margin-bottom: 30px;
-}
-h4{
-    font-size: 18px;
-}
-.form-card {
-    padding: 15px;
-    background: #20132e;
-}
-.nav.nav-pills .nav-link {
-    font-size: 16px;
-}
-.banner-btns {
+.contact_us_btn_container {
     display: flex;
+    gap: 0px;
     align-items: center;
 }
-#contact-form .banner-btns{
-    justify-content: end !important;
+.marquee__item {
+    min-width: 95px;
+}
+.marquee__item img {
+    max-width: 95px;
+}
+h1, h2 {
+    font-size: 28px;
+}
+.card-our-proflio-content .mt-4 {
+    margin-top:  0!important;
+}
+.card-our-proflio-content .col-md-6:nth-child(2) {
+    margin-top: 0px;
+}
+.course  .contact_us_btn_container {
+    margin-top: 0px !important;
+}
+.course .button__component_demo_container {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.hero-sub-title {
+    text-transform: uppercase;
+    margin: 0px 0px 15px 0px;
+    font-size: 12px;
+    align-items: center;
+    display: inline-block;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    color: var(--primary--color);
+    font-weight: 500;
+    line-height: 1;
+    background-color: transparent;
+    position: relative;
+    padding: 5px 12px;
+}
+.title-container.our-services .lefe-img-1 {
+    bottom: 208px;
+    left: -23%;
+}
+.our-service {
+    padding-bottom: 0px;
+}
+footer {
+    padding: 6px 0;
+    padding-top: 35px;
+    border-top: 1px solid #1f8738;
+    background-color: transparent;
+    border-radius: 25px 25px 0px 0px;
+    background-image: linear-gradient(180deg, #1a582a 0%, var(--primary--color) 100%);
+}
+.quick-links {
+    padding-left: 0px;
+}
+.copyrights-border-top {
+    margin-top: 25px !important;
+}
+.copyrights-border-top {
+    text-align: center;
+}
+body{
+    overflow: hidden;
+}
+.misstion_vistion .nav .nav-item button {
+    padding: 15px 0px 0px 15px;
+    font-size: 17px;
+}
+.inner-banner {
+    background: var(--primary--color);
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 40px;
+
+}
+h1, h2 {
+    font-size: 25px;
+}
+.saticsties h2 {
+    max-width: 100%;
+    margin: auto;
+    font-size: 18px !important;
+    line-height: 27px;
+}
+.cd-headline.clip b {
+    font-weight: 700 !important;
+}
+.lefe-img-1 {
+    left: -14%;
+}
+.footer-img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+.misstion_vistion h2 {
+    font-size: 17px !important;
+    line-height: 25px;
+}
+.tab-content.p-3{
+    padding-left: 0!important;
+    padding-right: 0 !important;
+}
+.contact-wrapper p {
+    width: 100%;
+}
+.contact-us-img img {
+    width: 100%;
+}
+.card-our-proflio {
+    margin-top: 25px;
+}
+.card-our-proflio.first{
+    margin-top: -10px;
+}
+.copyrights-border-top .text-end {
+    text-align: center !important;
+}
+.sec-6 .pt-4{
+    padding-top: 0 !important;
+}
+.lefe-img-2 {
+    max-width: 67px;
+}
+.lefe-img-1 {
+    max-width: 70px;
+}
+.social-media-fixed {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: block;
+    display: flex;
+    flex-direction: column;
 }
 .social_icons .icons {
     width: 36px;
     height: 36px;
 }
-.fa-phone {
-    font-size: 14px !important;
-}
-.social-media-fixed {
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-  display: block;
-  display: flex;
-  flex-direction: column;
-}
 .social_icons .icons {
     background: #140c1c;
-}
-.banner-text .title {
-    font-size: 26px;
-}
-.banner-text p {
-    font-size: 16px;
-}
-.banner {
-    margin-top: 156px;
-}
-.logo img {
-    max-width: 70px;
-}
-header .logo {
-    width: auto;
-}
-.orb-container canvas {
-    width: 100% !important;
-    height: 100% !important;
-}
-.orb-container {
-    width: 63%;
-    height: 203%;
-}
-.about-us-border-imgs{
-    display: none;
-}
-.card-about {
-    padding: 0;
-    margin-top: 15px;
-}
-.from{
-    padding: 25px 20px;
-}
-.button__component_demo .link__text_demo {
-    padding: 5px 12px;
-    font-size: 13px;
-}
-.from .button__component_demo .link__text_demo {
-    padding: 7px 14px;
-    font-size: 14px;
 }
 .social_icons {
     display: inline-block;
     margin-top: 15px;
 }
-.copyrights {
-    max-width: 75%;
-    margin: auto;
-    text-align: center;
+.fa-phone {
+    font-size: 14px !important;
 }
 }
 	
