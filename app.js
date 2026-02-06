@@ -84,3 +84,15 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// loder
+
+window.addEventListener("load", function () {
+  const loader = document.getElementById("loader");
+  const content = document.getElementById("content");
+
+  setTimeout(function () {
+    loader.style.display = "none";
+    content.style.display = "block";
+  }, 2000); // 5 seconds
+});

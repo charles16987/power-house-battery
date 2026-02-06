@@ -107,7 +107,7 @@ footer {
 
  @media (max-width: 767px) {
     .logo img {
-    max-width: 165px;
+    max-width: 190px;
 }
 header .logo {
     width: 40%;
@@ -265,6 +265,7 @@ h1, h2 {
     display: block;
     display: flex;
     flex-direction: column;
+    z-index: 100000;
 }
 .social_icons .icons {
     width: 36px;
@@ -280,5 +281,14 @@ h1, h2 {
 .fa-phone {
     font-size: 14px !important;
 }
+.desktop-banner {
+display: none;
+    }
+       .mobile-banner{
+        display: block;
+    }
+    .title {
+        height: 90px;
+    }
 }
 	
