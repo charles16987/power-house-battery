@@ -1820,3 +1820,22 @@ button:hover {
     transform: scale(1);
   }
 }
+.social-media-fixed .social_icons:nth-child(1) {
+   display: block !important;
+}
+.social-media-fixed {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    z-index: 100000;
+}
+.social_icons .icons {
+    width: 36px;
+    height: 36px;
+}
+.social_icons .icons {
+    background: #140c1c;
+}

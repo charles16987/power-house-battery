@@ -258,22 +258,7 @@ h1, h2 {
 .lefe-img-1 {
     max-width: 70px;
 }
-.social-media-fixed {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    display: block;
-    display: flex;
-    flex-direction: column;
-    z-index: 100000;
-}
-.social_icons .icons {
-    width: 36px;
-    height: 36px;
-}
-.social_icons .icons {
-    background: #140c1c;
-}
+
 .social_icons {
     display: inline-block;
     margin-top: 15px;
@@ -290,5 +275,10 @@ display: none;
     .title {
         height: 90px;
     }
+
+    .social-media-fixed {
+    bottom: 15px;
+    right: 15px;
+}
 }
 	
