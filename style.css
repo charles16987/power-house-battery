@@ -1833,8 +1833,11 @@ button:hover {
     z-index: 100000;
 }
 .social_icons .icons {
-    width: 36px;
-    height: 36px;
+    width: 46px;
+    height: 46px;
+}
+.social_icons .icons i {
+    font-size: 29px;
 }
 .social_icons .icons {
     background: #140c1c;

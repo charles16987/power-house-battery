@@ -280,5 +280,12 @@ display: none;
     bottom: 15px;
     right: 15px;
 }
+.social_icons .icons {
+    width: 36px;
+    height: 36px;
+}
+.social_icons .icons i {
+    font-size: 20px;
+}
 }
 	
